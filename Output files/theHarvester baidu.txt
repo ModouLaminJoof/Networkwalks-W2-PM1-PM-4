@@ -1,0 +1,187 @@
+$ theHarvester -h
+Read proxies.yaml from /etc/theHarvester/proxies.yaml
+*******************************************************************
+*  _   _                                            _             *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* theHarvester 4.8.2                                              *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*                                                                 *
+*******************************************************************
+usage: theHarvester [-h] -d DOMAIN [-l LIMIT] [-S START] [-p] [-s]
+                    [--screenshot SCREENSHOT] [-v] [-e DNS_SERVER] [-t]
+                    [-r [DNS_RESOLVE]] [-n] [-c] [-f FILENAME] [-w WORDLIST]
+                    [-a] [-q] [-b SOURCE]
+
+theHarvester is used to gather open source intelligence (OSINT) on a company
+or domain.
+
+options:
+  -h, --help            show this help message and exit
+  -d, --domain DOMAIN   Company name or domain to search.
+  -l, --limit LIMIT     Limit the number of search results, default=500.
+  -S, --start START     Start with result number X, default=0.
+  -p, --proxies         Use proxies for requests, enter proxies in
+                        proxies.yaml.
+  -s, --shodan          Use Shodan to query discovered hosts.
+  --screenshot SCREENSHOT
+                        Take screenshots of resolved domains specify output
+                        directory: --screenshot output_directory
+  -v, --virtual-host    Verify host name via DNS resolution and search for
+                        virtual hosts.
+  -e, --dns-server DNS_SERVER
+                        DNS server to use for lookup.
+  -t, --take-over       Check for takeovers.
+  -r, --dns-resolve [DNS_RESOLVE]
+                        Perform DNS resolution on subdomains with a resolver
+                        list or passed in resolvers, default False.
+  -n, --dns-lookup      Enable DNS server lookup, default False.
+  -c, --dns-brute       Perform a DNS brute force on the domain.
+  -f, --filename FILENAME
+                        Save the results to an XML and JSON file.
+  -w, --wordlist WORDLIST
+                        Specify a wordlist for API endpoint scanning.
+  -a, --api-scan        Scan for API endpoints.
+  -q, --quiet           Suppress missing API key warnings.
+  -b, --source SOURCE   baidu, bevigil, bing, bingapi, brave, bufferoverun,
+                        builtwith, censys, certspotter, criminalip, crtsh,
+                        dehashed, dnsdumpster, duckduckgo, fullhunt, github-
+                        code, hackertarget, haveibeenpwned, hunter, hunterhow,
+                        intelx, leaklookup, netlas, onyphe, otx, pentesttools,
+                        projectdiscovery, rapiddns, rocketreach,
+                        securityscorecard, securityTrails, shodan,
+                        sitedossier, subdomaincenter, subdomainfinderc99,
+                        threatminer, tomba, urlscan, venacus, virustotal,
+                        whoisxml, yahoo, zoomeye
+┌──(modou㉿kali)-[~]
+└─$ theHarvester -d microsoft.com -l 1000 -b baidu
+Read proxies.yaml from /etc/theHarvester/proxies.yaml
+*******************************************************************
+*  _   _                                            _             *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* theHarvester 4.8.2                                              *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*                                                                 *
+*******************************************************************
+
+[*] Target: microsoft.com 
+
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: 
+An exception has occurred: 
+[*] Searching Baidu. 
+
+[*] No IPs found.
+
+[*] Emails found: 2
+----------------------
+'0_10_@microsoft.com
+'@microsoft.com
+
+[*] No people found.
+
+[*] Hosts found: 24
+---------------------
+.microsoft.com
+252Fclarity.microsoft.com
+252Fdeveloper.microsoft.com
+252Fdocs.microsoft.com
+252Fjobs.careers.microsoft.com
+252Flearn.microsoft.com
+252Fmake.powerpages.microsoft.com
+252Fnews.microsoft.com
+252Fsupport.microsoft.com
+252Ftechcommunity.microsoft.com
+252Ftechnet.microsoft.com
+clarity.microsoft.com
+developer.microsoft.com
+docs.microsoft.com
+graph.microsoft.com
+jobs.careers.microsoft.com
+learn.microsoft.com
+make.powerpages.microsoft.com
+msdn.microsoft.com
+news.microsoft.com
+portal.manage-beta.microsoft.com
+support.microsoft.com
+techcommunity.microsoft.com
+technet.microsoft.com
+                                                                                
+┌──(modou㉿kali)-[~]
+└─$ 

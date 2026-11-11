@@ -1,0 +1,990 @@
+┌──(modou㉿kali)-[~]
+└─$ theHarvester -d microsoft.com -l 50 -b all    
+Read proxies.yaml from /etc/theHarvester/proxies.yaml
+*******************************************************************
+*  _   _                                            _             *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* theHarvester 4.8.2                                              *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*                                                                 *
+*******************************************************************
+
+[*] Target: microsoft.com 
+
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for bevigil. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for bufferoverun. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for Censys ID and/or Secret. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for criminalip. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for Dehashed. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for DNSDumpster. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for fullhunt. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Error initializing SearchGithubCode: 
+[!] Missing API key for Github. 
+
+[!] Missing API key for Github. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for Hunter. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for hunterhow. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for Intelx. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for netlas. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for onyphe. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for PentestTools. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for ProjectDiscovery. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for RocketReach. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for Securitytrail. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for Shodan. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for Tomba Key and/or Secret. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for Venacus. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for virustotal. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for whoisxml. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for zoomeye. 
+Error in BuiltWith search: 200, message='Attempt to decode JSON with unexpected mimetype: text/json; charset=utf-8', url='https://api.builtwith.com/v21/api.json?KEY=None&LOOKUP=microsoft.com'
+[*] Searching Builtwith. 
+An exception has occurred: Server disconnected
+	Searching 0 results.
+[*] Searching Bing. 
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+An exception has occurred: Server disconnected
+[*] Searching Baidu. 
+	Searching results.
+[*] Searching Certspotter. 
+[*] Searching Brave. 
+[*] Searching Hackertarget. 
+Error in HaveIBeenPwned search: Cannot serialize non-str key None
+[*] Searching Haveibeenpwned. 
+[*] Searching Leaklookup. 
+[*] Searching Duckduckgo. 
+[!] Missing API key for SecurityScorecard.
+Error in SecurityScorecard search: 
+[!] Missing API key for SecurityScorecard. 
+[*] Searching Securityscorecard. 
+[*] Searching Rapiddns. 
+[*] Searching Subdomaincenter. 
+Sitedossier module has triggered a captcha on first iteration, no results can be found.
+Change IPs, manually solve the captcha, or wait before rerunning Sitedossier module
+[*] Searching Sitedossier. 
+[*] Searching Subdomainfinderc99. 
+An exception has occurred: 429, message='Attempt to decode JSON with unexpected mimetype: text/html', url='https://urlscan.io/api/v1/search/?q=domain:microsoft.com'
+[*] Searching Yahoo. 
+An exception has occurred: 522, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url='https://api.threatminer.org/v2/domain.php?q=microsoft.com&rt=5'
+An exception has occurred: 
+[*] Searching CRTsh. 
+
+[*] No LinkedIn users found.
+
+
+
+[*] LinkedIn Links found: 0
+---------------------
+
+[*] No IPs found.
+
+[*] No emails found.
+
+[*] No people found.
+
+[*] Hosts found: 818
+---------------------
+064-smtp-in-2a.microsoft.com:157.54.41.37
+1es-mcp-gallery.microsoft.com:150.171.110.17
+1s.microsoft.com:150.171.110.17
+260920.microsoft.com:132.243.118.55
+2Fblogs.microsoft.com
+2Fdocs.microsoft.com
+2Fdownload.microsoft.com
+2Fmsdn.microsoft.com
+2Fnews.microsoft.com
+3d-avatar-diffusion.microsoft.com:23.101.10.141
+3p-dataconnectors.microsoft.com:20.118.40.7
+3pc.microsoft.com:150.171.109.77
+3pcapi.microsoft.com:150.171.110.17
+3pconsole.microsoft.com:40.67.153.174
+3rdpartycode.microsoft.com:150.171.110.17
+3rdpartysource.microsoft.com:150.171.110.17
+3sdash.microsoft.com:4.152.194.249
+8057.microsoft.com:206.126.236.17
+8075.microsoft.com:206.223.116.17
+Docs.microsoft.com
+a.manage.microsoft.com:manage-pe-mtls.trafficmanager.net
+a.officeint.microsoft.com.microsoft.com:207.68.130.204
+a00000000000000000000000000000000000000000000000000000000000001.ms.a.microsoft.com:23.219.36.140
+a00000000000000000000000000000000000000000000000000000000000002.ms.a.microsoft.com:23.219.36.139
+a00000000000000000000000000000000000000000000000000000000000003.ms.a.microsoft.com:23.219.36.137
+a0000000000000000000000000000000000000000000000000000000000001.ms.a.microsoft.com:23.219.36.143
+a00000000000000000000000000000000000000000000000000000000000010.ms.a.microsoft.com:23.219.36.144
+a000000000000000000000000000000000000000000000000000000000001.ms.a.microsoft.com:23.219.36.143
+a00000000000000000000000000000000000000000000000000000000001.ms.a.microsoft.com:23.219.36.140
+a00000000000000000000000000000000000000000000000000000000001337.ms.a.microsoft.com:23.219.36.135
+a0000000000000000000000000000000000000000000000000000000001.ms.a.microsoft.com:23.219.36.140
+a000000000000000000000000000000000000000000000000000000001.ms.a.microsoft.com:23.219.36.143
+a0000000000000000000000000000000000000001.ms.a.microsoft.com:23.219.36.140
+a0000000000000000000000001.ms.a.microsoft.com:23.219.36.140
+a0000000000000000000000002.ms.a.microsoft.com:23.219.36.139
+a000000000000000000001.ms.a.microsoft.com:23.219.36.143
+a000000000000000001.ms.a.microsoft.com:23.219.36.143
+a000000000000000002.ms.a.microsoft.com:23.219.36.136
+a000000000000000003.ms.a.microsoft.com:23.219.36.134
+a00000000001.ms.a.microsoft.com:23.219.36.143
+a0000000001.ms.a.microsoft.com:23.219.36.143
+a000001.ms.a.microsoft.com:193.246.105.80
+a000001.ms.a.microsoft.com:193.246.105.9
+a000001.ms.a.microsoft.com:23.219.36.143
+a00001.ms.a.microsoft.com:23.219.36.143
+a0001.ms.a.microsoft.com:23.219.36.140
+a001.ms.a.microsoft.com:23.219.36.143
+a01.ms.a.microsoft.com:23.219.36.140
+a1.ms.a.microsoft.com:23.219.36.140
+a10.ms.a.microsoft.com:23.219.36.132
+a100.ms.a.microsoft.com:23.219.36.132
+a1000.ms.a.microsoft.com:23.219.36.141
+a101.ms.a.microsoft.com:23.219.36.133
+a102.ms.a.microsoft.com:23.219.36.134
+a103.ms.a.microsoft.com:23.219.36.135
+a126.ms.a.microsoft.com:23.66.3.76
+a126.ms.a.microsoft.com:23.66.3.88
+a144.ms.a.microsoft.com:23.220.75.196
+a144.ms.a.microsoft.com:23.220.75.211
+aad.cs.dds.microsoft.com:dgscontinuumonlyatm.trafficmanager.net
+ac2.microsoft.com:65.55.157.94
+academymobile.microsoft.com:131.107.97.10
+accesscontrol.ex.azure.microsoft.com:65.55.54.20
+account.microsoft.com
+accountants.microsoft.com:207.68.165.81
+accounting.microsoft.com:207.68.165.50
+accounts.bkgprocessing.bn2.cp.microsoft.com:40.77.224.215
+accounts.bkgprocessing.cy2.cp.microsoft.com:40.77.232.79
+accounts.bn2.cp.microsoft.com:40.77.228.40
+accounts.co1.cp.microsoft.com:65.55.7.79
+accounts.cy2.cp.microsoft.com:40.77.232.69
+accounts.dm2.cp.microsoft.com:134.170.48.205
+accounts.flighting.bn2.cp.microsoft.com:40.77.228.162
+accounts.flighting.cy2.cp.microsoft.com:40.77.232.17
+activex.microsoft.com:207.46.196.108
+adcenterapi-ppe.microsoft.com:207.46.202.21
+adcenterapi.adintelligence.microsoft.com:207.46.202.96
+adcenterapidownload-ppe.microsoft.com:207.46.119.181
+adcenterapidownload-ppe.microsoft.com:64:ff9b::cf2e:77b5
+adcenterchallenge.microsoft.com:207.46.119.160
+adcenterhelp-si.microsoft.com:207.46.120.189
+adfs.catcrm-stg.microsoft.com:157.56.138.45
+adinquiry.advertiser-si.adcenter.microsoft.com:65.55.130.62
+adinquiry.bcp.bingads.microsoft.com:65.52.105.117
+adinquiry.beta.si.bingads.microsoft.com:207.46.119.62
+adinsight.bcp.api.bingads.microsoft.com:131.253.14.110
+adintelligence.pace2.adcenter.microsoft.com:207.46.22.160
+adintelligence.pace3ldc2.adcenter.microsoft.com:207.46.22.161
+adlab.microsoft.com:157.55.150.71
+adreport-ppe.microsoft.com:65.55.36.254
+advertiser-pace.adcenter.microsoft.com:207.46.119.170
+advertiser-rep1.adcenter.microsoft.com:64:ff9b::4137:9d4e
+advertiser-rep1.adcenter.microsoft.com:65.55.157.78
+advertiser-si.adcenter.microsoft.com:65.55.129.45
+advertising.microsoft.com:65.55.249.241
+aep.microsoft.com
+aer.microsoft.com
+aether.microsoft.com
+afflink.microsoft.com
+agreementjournal.cp.microsoft.com:65.55.144.46
+agreements.cp.microsoft.com:65.55.144.38
+aiotlabs.microsoft.com
+airlift.microsoft.com
+aistories.microsoft.com
+aiusecaseexplorer.microsoft.com
+alerts.microsoft.com
+ams-ix-1.microsoft.com:80.249.209.20
+ams-ix-2.microsoft.com:80.249.209.21
+analyticspartner.microsoft.com
+answers.microsoft.com
+api-internal-co1c.cp.microsoft.com:65.55.120.0
+api-internal-dm2c.cp.microsoft.com:65.55.144.26
+api.access.tools-eastus.cp.microsoft.com:64:ff9b::34e1:e6de
+api.bc.adcenter-pace.microsoft.com:65.54.161.204
+api.current.adcenter-pace.microsoft.com:64.4.21.60
+api.express.bingads.microsoft.com:131.253.40.78
+api.next.adcenter-pace.microsoft.com:65.54.165.49
+api.si.adcenter.microsoft.com:65.55.129.46
+api.si.yahoo.adcenterapi.microsoft.com:207.46.119.60
+app.microsoft.com:74.220.21.132
+apps.1js.microsoft.com:20.119.0.21
+appsource.microsoft.com
+arr.si.adcenter.microsoft.com:65.55.129.59
+asia-adcenterapi-si.adcenter.microsoft.com:111.221.21.46
+audience-si.bingads.microsoft.com:207.68.157.42
+audience.bingads.microsoft.com:157.55.150.72
+auth.catcrm.microsoft.com:157.56.138.80
+autobugstaging.microsoft.com:131.107.127.127
+autodiscover.microsoft.com:131.107.1.73
+avsexperian.microsoft.com:40.77.232.43
+azippservice.microsoft.com:104.44.112.45
+azure.microsoft.com
+azuremarketplace.microsoft.com
+bac.microsoft.com:65.55.12.248
+backoffice.microsoft.com
+backup12.microsoft.com:207.46.249.29
+banana.microsoft.com:209.141.47.186
+baremetal.microsoft.com:107.189.7.19
+bayprofile01.microsoft.com:207.46.23.13
+bayprofile02.microsoft.com:207.46.23.14
+bayprofile03.microsoft.com:207.46.23.20
+bayprofile04.microsoft.com:207.46.23.21
+bayprofile05.microsoft.com:207.46.23.22
+bayprofile06.microsoft.com:207.46.23.23
+bayprofile07.microsoft.com:207.46.23.24
+bayprofile08.microsoft.com:207.46.23.25
+bayprofile09.microsoft.com:64.4.17.20
+bayprofile10.microsoft.com:64.4.17.21
+bayprofile11.microsoft.com:64.4.17.22
+bayprofile12.microsoft.com:64.4.17.23
+bayprofile13.microsoft.com:64.4.17.24
+bayprofile14.microsoft.com:64.4.17.25
+bayprofile15.microsoft.com:64.4.17.26
+bayvlsc01.microsoft.com:64.4.17.16
+bayvlsc02.microsoft.com:64.4.17.17
+bayvlsc03.microsoft.com:64.4.17.18
+bayvlsc04.microsoft.com:207.46.23.16
+bayvlsc05.microsoft.com:207.46.23.17
+bayvlsc06.microsoft.com:207.46.23.18
+bbscc.microsoft.com:64.112.42.64
+bc.bingads.microsoft.com:65.54.161.202
+bcp.adcenter.microsoft.com:207.46.202.122
+bcp.adcenterapidownload.microsoft.com:207.46.202.99
+bcp.adcenterhelp.microsoft.com:207.46.202.114
+bcp.evdesktop.adcenter.microsoft.com:207.46.202.115
+bcp.internal.adcenter.microsoft.com:207.46.202.17
+bemisdev.microsoft.com:207.68.167.7
+bemisstaging.microsoft.com:157.55.129.30
+beta.bac.microsoft.com:65.55.11.216
+beta.cam.microsoft.com:207.46.31.116
+beta.express.bingads.microsoft.com:207.46.202.86
+beta.sts.advertising.microsoft.com:207.46.202.101
+beta_evdesktop-si.adcenter.microsoft.com:65.55.130.23
+betalearningservices.microsoft.com:207.46.18.228
+billgates.microsoft.com:80.72.38.186
+billing-co1.cp.microsoft.com:65.55.7.55
+billing-dm2.cp.microsoft.com:134.170.48.174
+billingapi.co1.cp.microsoft.com:65.55.7.110
+billingapi.dm2.cp.microsoft.com:134.170.48.248
+billingfrsadminconsole.co1.cp.microsoft.com:65.55.7.115
+billingfrsadminconsole.dm2.cp.microsoft.com:134.170.48.250
+billinggroupjournal.bn4.cp.microsoft.com:104.44.192.54
+billinggroupjournal.co1.cp.microsoft.com:13.106.128.18
+billinggroups.bn4.cp.microsoft.com:104.44.192.53
+billinggroups.co1.cp.microsoft.com:13.106.128.17
+billingjournalservice.co1.cp.microsoft.com:65.55.7.78
+billingservice.co1.cp.microsoft.com:65.55.7.77
+billingservices-staging.microsoft.com:65.55.225.201
+biz4afrika.microsoft.com
+blogs.microsoft.com
+bn1.cloudcollection.microsoft.com:131.253.14.29
+bn1.ppe.cloudcollection.microsoft.com:131.253.14.216
+bn1cdnamail1.microsoft.com:191.234.1.7
+bn1cdnamail2.microsoft.com:191.234.1.8
+bn1cdnamail3.microsoft.com:191.234.1.9
+bn1cdnamail4.microsoft.com:191.234.1.14
+bn1cdnamail5.microsoft.com:191.234.1.18
+bn1vlsctest01.microsoft.com:134.170.22.43
+bn1vlsctest02.microsoft.com:134.170.22.44
+bn1vlsctest03.microsoft.com:134.170.22.45
+bn1vlsctest04.microsoft.com:134.170.22.46
+bn2.eventbroker.api.microsoft.com:40.77.130.39
+boardlink.microsoft.com:207.46.248.237
+botnettf.microsoft.com:131.107.119.4
+brandtoolsppe.microsoft.com:134.170.185.87
+brandtoolstest.microsoft.com:134.170.185.217
+browserdefaults.microsoft.com
+business.microsoft.com
+businesscentral.microsoft.com
+businessconnection.microsoft.com:131.107.103.227
+businessmobilitycenter.microsoft.com
+businessplatform.microsoft.com
+buttons.buddy.microsoft.com:131.107.86.69
+buy.co1.microsoft.com:157.56.65.82
+buysupport.microsoft.com:65.55.28.134
+buysupportuat.microsoft.com:207.46.208.125
+buysupportuat1.microsoft.com:65.55.28.132
+by2profiletest01.microsoft.com:207.46.22.12
+by2profiletest02.microsoft.com:207.46.22.13
+by2profiletest03.microsoft.com:207.46.22.14
+by2profiletest04.microsoft.com:207.46.22.15
+by2profiletest05.microsoft.com:207.46.22.16
+by2vlsctest.microsoft.com:134.170.188.122
+by2vlsctest51.microsoft.com:134.170.188.61
+by2vlsctest52.microsoft.com:134.170.188.62
+by2vlsctest53.microsoft.com:134.170.188.63
+by2vlsctest54.microsoft.com:134.170.188.64
+c1.ch1.adcenterapi.microsoft.com:207.46.202.102
+c1.ch1.securityservices.adcenterapi.microsoft.com:65.52.107.209
+c1.ch1.sharedservices.adcenterapi.microsoft.com:207.46.202.84
+c1_api.si.bingads.microsoft.com:65.55.130.12
+c1_download.api.si.bingads.microsoft.com:65.55.130.25
+c1_maf.api.si.bingads.microsoft.com:65.55.130.30
+c1_sharedservices.api.si.bingads.microsoft.com:65.55.130.37
+c2.by2.adcenterapi.microsoft.com:65.54.165.81
+c2.by2.maf.adcenter.microsoft.com:65.54.165.92
+c2.by2.sharedservices.adcenterapi.microsoft.com:65.55.129.228
+c2.ch1.adcenterapi.microsoft.com:207.46.202.103
+c2.ch1.securityservices.adcenterapi.microsoft.com:65.52.107.210
+c2.ch1.sharedservices.adcenterapi.microsoft.com:207.46.202.85
+c2_api.si.bingads.microsoft.com:65.55.130.13
+c2_download.api.si.bingads.microsoft.com:65.55.130.26
+c2_maf.api.si.bingads.microsoft.com:65.55.130.31
+c2_sharedservices.api.si.bingads.microsoft.com:65.55.130.38
+c2rprop.c2r.microsoft.com:65.55.69.155
+cache.microsoft.com:84.46.64.101
+cachenodeid.ec3b88f4.8480.4922.9808.c33f8dd869a0.microsoft.com:111.223.225.114
+calendarnotification.microsoft.com:191.234.1.49
+cam.current.adcenter-pace.microsoft.com:64.4.21.62
+camp-image.current.adcenter-pace.microsoft.com:64.4.21.46
+careers.microsoft.com
+careerstest.microsoft.com:40.90.6.205
+casereviewuat.microsoft.com:157.58.248.39
+cashback.microsoft.com
+cat-beta-stg.microsoft.com:207.46.212.136
+cat-uat.microsoft.com:157.55.129.22
+cat.catcrm-stg.microsoft.com:23.103.192.139
+cat1.catcrm-test.microsoft.com:207.68.167.31
+catalogbeta.microsoft.com:207.46.197.106
+catalogs-si.adcenter.microsoft.com:65.55.3.81
+catalogs.adcenter.microsoft.com:65.55.0.173
+cbt.cp.microsoft.com:65.54.159.160
+ccapi.bc.adcenter-pace.microsoft.com:65.54.161.203
+ccapi.next.adcenter-pace.microsoft.com:65.54.165.47
+ccmt.next.adcenter-pace.microsoft.com:64:ff9b::4136:a50c
+ccmt.next.adcenter-pace.microsoft.com:65.54.165.12
+cdm.microsoft.com:207.46.197.111
+cdn-dynmedia-1.microsoft.com
+cdn.techcommunity.microsoft.com
+cdn4.microsoft.com:5.223.68.179
+cem-prod-co3.services.microsoft.com:64:ff9b::4137:215
+ceoconnections.event.microsoft.com
+ch1-c1.maf.api.bingads.microsoft.com:207.46.202.93
+ch1-c1.secure.api.bingads.microsoft.com:65.52.107.221
+ch1-c1.sharedservices.api.bingads.microsoft.com:207.46.202.95
+ch1-c2.maf.api.bingads.microsoft.com:207.46.202.94
+ch1-c2.secure.api.bingads.microsoft.com:65.52.107.222
+ch1-c2.sharedservices.api.bingads.microsoft.com:207.46.202.92
+ch1.monitoring.aeos.microsoft.com:157.55.62.249
+ch1.ppe.aeos.microsoft.com:157.55.62.250
+channelincentivesbeta2.microsoft.com:157.58.248.243
+channelincentivespx3.microsoft.com:157.58.248.218
+channelincentivespx3beta.microsoft.com:157.58.248.210
+chargeaggregationjournal.co1.cp.microsoft.com:65.55.120.35
+chargeaggregationservice.co1.cp.microsoft.com:65.55.7.116
+choice.microsoft.com
+cip2.microsoft.com:157.55.129.23
+cloud-immersion.microsoft.com
+cmat-int.css.microsoft.com:64:ff9b::4137:cbba
+cmfd.wus2.apslb.cp.microsoft.com:40.77.232.19
+cmgimm.microsoft.com:65.55.93.21
+cmgimmsvc.microsoft.com:65.55.93.22
+cmmt.next.adcenter-pace.microsoft.com:65.54.165.11
+cmsbeta.microsoft.com:134.170.22.17
+cmsbn1test01.microsoft.com:134.170.22.53
+cmsbn1test02.microsoft.com:134.170.22.54
+cmsbn1test03.microsoft.com:134.170.22.55
+cmsbn1test04.microsoft.com:134.170.22.56
+cmsbn1test04.microsoft.com:64:ff9b::86aa:1638
+cmsbn1test05.microsoft.com:134.170.22.57
+cmsbn1test06.microsoft.com:134.170.22.58
+cmsbn1test07.microsoft.com:134.170.22.59
+cmsbn1test08.microsoft.com:134.170.22.60
+cmsbn1test09.microsoft.com:134.170.22.61
+cmsbn1test10.microsoft.com:134.170.22.62
+cmsbn1test11.microsoft.com:134.170.22.63
+cmsbn1test12.microsoft.com:134.170.22.64
+cmsby2test51.microsoft.com:134.170.188.88
+cmsby2test52.microsoft.com:134.170.188.89
+cmsby2test53.microsoft.com:134.170.188.90
+cmsby2test54.microsoft.com:134.170.188.91
+cmsby2test55.microsoft.com:134.170.188.92
+cmsby2test56.microsoft.com:134.170.188.93
+cmsby2test57.microsoft.com:134.170.188.94
+cmsby2test58.microsoft.com:134.170.188.95
+cmsby2test59.microsoft.com:134.170.188.96
+cmsby2test60.microsoft.com:134.170.188.97
+cmsby2test61.microsoft.com:134.170.188.98
+cmsby2test62.microsoft.com:134.170.188.99
+cmsco2test51.microsoft.com:134.170.184.36
+cmsco2test52.microsoft.com:134.170.184.37
+cmsco2test53.microsoft.com:134.170.184.38
+cmsco2test54.microsoft.com:134.170.184.39
+cmsco2test55.microsoft.com:134.170.184.40
+cmsco2test56.microsoft.com:134.170.184.41
+cmsco2test57.microsoft.com:134.170.184.42
+cmsco2test58.microsoft.com:134.170.184.43
+cmsco2test59.microsoft.com:134.170.184.44
+cmsco2test60.microsoft.com:134.170.184.45
+cmsco2test61.microsoft.com:134.170.184.46
+cmsco2test62.microsoft.com:134.170.184.47
+cmscy1test51.microsoft.com:23.103.192.29
+cmscy1test52.microsoft.com:23.103.192.30
+cmscy1test53.microsoft.com:23.103.192.47
+cmscy1test54.microsoft.com:23.103.192.48
+cmscy1test55.microsoft.com:23.103.192.49
+cmscy1test56.microsoft.com:23.103.192.50
+cmscy1test57.microsoft.com:23.103.192.51
+cmscy1test58.microsoft.com:23.103.192.52
+cmscy1test59.microsoft.com:23.103.192.53
+cmscy1test60.microsoft.com:23.103.192.54
+cmscy1test62.microsoft.com:23.103.192.56
+cmscy1test63.microsoft.com:23.103.192.57
+cmscy1test64.microsoft.com:23.103.192.58
+cmscy1test65.microsoft.com:23.103.192.59
+cmscy1test66.microsoft.com:23.103.192.60
+co1profile01.microsoft.com:65.55.57.121
+co1profile02.microsoft.com:65.55.57.125
+co1profile03.microsoft.com:157.56.60.50
+co1profile04.microsoft.com:65.55.57.122
+co1profile05.microsoft.com:157.56.60.51
+co1profile06.microsoft.com:157.56.60.52
+co1profile07.microsoft.com:65.55.57.123
+co1profile08.microsoft.com:157.56.60.53
+co1profile09.microsoft.com:157.56.60.54
+co1profile10.microsoft.com:65.55.57.124
+co1profile11.microsoft.com:157.56.60.55
+co1profile12.microsoft.com:157.56.60.56
+co1profile13.microsoft.com:157.56.60.59
+co1profile14.microsoft.com:157.56.60.57
+co1profile15.microsoft.com:157.56.60.58
+co1profiletest01.microsoft.com:65.55.21.48
+co1profiletest02.microsoft.com:65.55.21.47
+co1profiletest03.microsoft.com:65.55.21.50
+co1profiletest04.microsoft.com:65.55.21.51
+co1profiletest05.microsoft.com:65.55.21.52
+co1vlsc01.microsoft.com:65.55.57.88
+co1vlsc02.microsoft.com:65.55.57.89
+co1vlsc03.microsoft.com:65.55.57.90
+co1vlsc04.microsoft.com:65.55.58.241
+co1vlsc05.microsoft.com:65.55.58.242
+co1vlsc06.microsoft.com:65.55.58.243
+co2vlscppe.microsoft.com:134.170.184.207
+co2vlsctest.microsoft.com:134.170.184.180
+co2vlsctest51.microsoft.com:134.170.184.170
+co2vlsctest52.microsoft.com:134.170.184.171
+co2vlsctest53.microsoft.com:134.170.184.172
+co2vlsctest53.microsoft.com:64:ff9b::86aa:b8ac
+co2vlsctest54.microsoft.com:134.170.184.173
+co3.ppe.cloudcollection.microsoft.com:131.253.14.105
+cobra.me.microsoft.com
+code.beta.si.bingads.microsoft.com:65.55.157.64
+codex.microsoft.com:40.77.224.222
+commerceaccount.bn4.cp.microsoft.com:104.44.192.42
+commerceaccount.dm2.cp.microsoft.com:64:ff9b::682c:ca0d
+commercepaycallback.co1.cp.microsoft.com:65.55.7.28
+commercepdsreportingapi.microsoft.com:65.52.105.118
+commercepdsreportingdownloader.microsoft.com:65.52.105.119
+commercialappcertification.microsoft.com
+communities.microsoft.com
+communities2.microsoft.com
+community.microsoft.com
+comodf.microsoft.com:131.107.0.42
+confirm.microsoft.com:207.46.248.35
+connect.microsoft.com
+connectevent.microsoft.com
+connectppe.microsoft.com:65.55.56.11
+consumer.microsoft.com:65.55.93.86
+contentchannel-df.microsoft.com:64.4.8.67
+controltower-ppe.microsoft.com:157.56.149.71
+controltower.microsoft.com:157.56.149.72
+copilot.microsoft.com
+cosmos-publishing-hk.microsoft.com:111.221.29.183
+cpdemo.notify.buddy.microsoft.com:131.107.86.51
+cpxpert.co1.cp.microsoft.com:65.55.120.1
+crawlmsdn.microsoft.com
+csodesktop-si.adcenter.microsoft.com:65.55.129.55
+csows-si.adcenter.microsoft.com:65.55.129.56
+ctpoperations.co1.cp.microsoft.com:65.55.7.63
+ctppomo.co1.cp.microsoft.com:65.55.7.31
+current.bingads.microsoft.com:64.4.21.44
+customers.microsoft.com
+cy2.eventbroker.api.microsoft.com:40.77.128.25
+data.buddy.microsoft.com:131.107.86.6
+data.choice.microsoft.com:131.253.40.60
+dataplatform.microsoft.com
+db3.cloudcollection.microsoft.com:131.253.37.6
+db3.ppe.cloudcollection.microsoft.com:131.253.12.72
+dbpermissions.bingads.microsoft.com:65.55.128.82
+dcs.ccp.microsoft.com:207.46.250.108
+de-cix.bcn.microsoft.com:185.1.119.23
+des.co1.cp.microsoft.com:65.55.7.81
+design.microsoft.com
+desktop-si.adcenter.microsoft.com:207.46.184.12
+desktop.adcenter-ppe.microsoft.com:207.46.184.11
+dev.3pc.microsoft.com:150.171.110.17
+dev.3pconsole.microsoft.com:40.67.153.174
+develop.microsoft.com
+developer.microsoft.com
+devint.adcenter.microsoft.com:207.46.184.39
+diamond.buddy.microsoft.com:131.107.86.112
+discussions.connect.microsoft.com:65.55.58.38
+discussions.connectppe.microsoft.com:65.55.56.61
+djuarezpc-02.southamerica.corp.microsoft.com:136.145.196.151
+dl.cdn.microsoft.com:64.112.43.38
+dm-dk8s-wus3-1003.manage-selfhost.microsoft.com:mps-intune-prd-wus3-1003.westus3.cloudapp.azure.com
+dnx.phx.sts.microsoft.com:64:ff9b::cf44:933c
+docs.microsoft.com
+domains.microsoft.com
+dot.buddy.microsoft.com:131.107.86.8
+download.microsoft.com
+download.reportingapi.bingads.microsoft.com:65.52.105.126
+dr-partnerincentives.microsoft.com:64:ff9b::5ef5:7efc
+drclplsws.partners.extranet.microsoft.com:64:ff9b::4137:1cbf
+drs.co1.cp.microsoft.com:65.55.7.26
+ds9.buddy.microsoft.com:131.107.86.72
+dunning.bn4.cp.microsoft.com:65.55.44.128
+dunningjournal.bn4.cp.microsoft.com:65.55.44.159
+dynamics.microsoft.com
+eastasia.tts-frontend.speech.microsoft.com:istio-ingress-speech2-ame10-ae.eastasia.cloudapp.azure.com
+edge.payments.microsoft.com
+editorial.adcenter.microsoft.com:65.55.8.244
+editorial.next.adcenter-pace.microsoft.com:65.54.165.56
+editorial.si.bingads.microsoft.com:207.46.31.117
+editorialentitytracking.si.bingads.microsoft.com:65.55.130.47
+editorialui.current.adcenter-pace.microsoft.com:64.4.21.43
+eft.adcenter.microsoft.com:207.46.202.37
+email2.microsoft.com:64:ff9b::8893:811b
+emerald.notify.buddy.microsoft.com:131.107.86.114
+empower-isv.one.microsoft.com:64:ff9b::836b:7389
+empresas.microsoft.com
+engagehub.microsoft.com
+enterprise.microsoft.com
+enterprisereportingservice.co1.cp.microsoft.com:65.55.7.117
+entrepreneur.microsoft.com
+evd-si-aq.bingads.microsoft.com:131.253.14.7
+evd-tip.bingads.microsoft.com:65.55.2.53
+evd.lm.next.adcenter-pace.microsoft.com:65.54.165.69
+evdesktop-ppe.adcenter.microsoft.com:65.55.129.240
+evdesktop-si.adcenter.microsoft.com:65.55.2.47
+evdesktop.adcenter.microsoft.com:131.253.40.91
+evdws-si.adcenter.microsoft.com:65.55.129.53
+example.microsoft.com
+expertzone.ca.microsoft.com:65.54.203.220
+explore-marketing.microsoft.com
+explore-security.microsoft.com
+explore-smb.microsoft.com
+express.beta.si.bingads.microsoft.com:65.55.130.17
+expressions.microsoft.com
+fdebera-msft.northamerica.corp.microsoft.com:136.145.196.223
+feedback.microsoft.com:feedback-microsoft-com.ax-0001.ax-msedge.net
+financialrecordjournal.co1.cp.microsoft.com:65.55.120.31
+financialrmcaproxy.co1.cp.microsoft.com:65.55.7.109
+fortapi.co1.cp.microsoft.com:65.55.7.30
+fpt.microsoft.com
+francecentral.tts-frontend.speech.microsoft.com:istio-ingress-speech2-ame10-fc.francecentral.cloudapp.azure.com
+ftp.audience.adcenter.microsoft.com:64.4.21.199
+fulfillment.co1.cp.microsoft.com:65.55.7.80
+fuse.microsoft.com
+futuredecoded.microsoft.com
+ga.microsoft.com
+garage.microsoft.com
+gateway.microsoft.com:64:ff9b::836b:108e
+gateway.microsoft.com:64:ff9b::836b:108f
+gherrera-msftpr.northamerica.corp.microsoft.com:136.145.196.147
+gherrerapr03.northamerica.corp.microsoft.com:136.145.196.214
+gigjam.microsoft.com
+go.microsoft.com
+greenid.int.wus2.apslb.cp.microsoft.com:65.55.252.245
+grv.microsoft.com
+help.beta.si.bingads.microsoft.com:65.55.130.19
+hk2-dspcdn.tlu.dl.delivery.mp.microsoft.com:64:ff9b::284d:e248
+hk2.ppe.cloudcollection.microsoft.com:111.221.29.200
+hup.microsoft.com
+hxd.research.microsoft.com
+i.manage.microsoft.com:manage-pe-mtls.trafficmanager.net
+ideas.fabric.microsoft.com
+ieak.microsoft.com
+imagine.microsoft.com
+innovationcontest.microsoft.com
+insidemsr.microsoft.com
+instrumentexport.co1.cp.microsoft.com:104.44.241.11
+internal.advertiser-si.adcenter.microsoft.com:65.55.129.57
+internal.bcp.adcenter.microsoft.com:207.46.202.57
+internal.main.bingads.microsoft.com:65.54.165.108
+internal.next.bingads.microsoft.com:134.170.8.139
+invoicepresentment.co1.cp.microsoft.com:65.55.120.34
+invoicepresentmentjournal.co1.cp.microsoft.com:65.55.120.33
+iotcentral.microsoft.com
+iotschool.microsoft.com
+irt.beta.si.bingads.microsoft.com:65.55.130.44
+irt.si.bingads.microsoft.com:65.55.130.43
+irt.tip.bingads.microsoft.com:65.55.129.48
+itpro.microsoft.com
+iwsextern.partners.extranet.microsoft.com:64:ff9b::9d3a:1e1a
+jade.notify.buddy.microsoft.com:131.107.86.113
+juley.adcenter.microsoft.com:64.4.22.10
+kenny.notify.buddy.microsoft.com:131.107.86.103
+kirk.buddy.microsoft.com:131.107.86.18
+kleinunternehmen.microsoft.com
+ks.co1.cp.microsoft.com:65.55.7.76
+kyle.notify.buddy.microsoft.com:131.107.86.101
+l2oapproval-int-ch1.microsoft.com:64:ff9b::1760:f5f9
+learn.microsoft.com
+learnanalytics.microsoft.com
+learning.microsoft.com
+licensing-tip.powerplatform.microsoft.com:afdfo-preprod-neptune.trafficmanager.net
+lineofcreditservice.co1.cp.microsoft.com:65.55.7.94
+listmanager.beta.si.bingads.microsoft.com:65.55.130.28
+listmanager.si.bingads.microsoft.com:65.55.130.27
+login.buddy.microsoft.com:131.107.86.7
+lslm12.meet.microsoft.com:64:ff9b::5ef5:7f18
+lumiaconversationsuk.microsoft.com
+lx.azure.microsoft.com:65.55.37.30
+lync0d.lyncweb.microsoft.com:64:ff9b::836b:ff06
+m12.microsoft.com
+mac.microsoft.com
+mac2.microsoft.com
+madeira.microsoft.com
+maf.api.si.bingads.microsoft.com:65.55.130.29
+maftest.adcenter.microsoft.com:65.55.129.43
+mail1.assist.microsoft.com:198.105.232.39
+mail2.assist.microsoft.com:198.105.232.43
+maila.assist.microsoft.com:198.105.232.43
+main.evdesktop.adcenter.microsoft.com:65.54.165.102
+mango.microsoft.com
+mathsolver.microsoft.com
+mbsinternal-u1.microsoft.com:uatmbsinternal-ghg3grhachdzgtfg.b02.azurefd.net
+mcsp.microsoft.com
+memberdir1.buddy.microsoft.com:131.107.86.73
+mesistla-lap.fareast.corp.microsoft.com:128.105.23.87
+messenger.microsoft.com
+microsoftcopilotstudio.microsoft.com
+minecraft.microsoft.com
+mkb.microsoft.com
+monitoringdc1.como.cp.microsoft.com:65.55.202.80
+monitoringdc2.como.cp.microsoft.com:64:ff9b::4137:ca51
+monitoringdc2.como.cp.microsoft.com:65.55.202.81
+mpan.accounting.microsoft.com:207.68.165.81
+mrt.microsoft.com:64:ff9b::cf2e:c57a
+msc.microsoft.com:msc-web-a5crbkehf7ephbeh.b02.azurefd.net
+msconnect.microsoft.com:msconnect-abbhd7fcgrgnc5e8.z01.azurefd.net
+msctec.microsoft.com
+msdn.microsoft.com
+msdnisv.microsoft.com
+msdnwiki.microsoft.com
+mspartnerbi.partners.extranet.microsoft.com:64:ff9b::4137:1d0b
+mspartnerira.microsoft.com
+mspress.microsoft.com
+msybidata.adcenter.microsoft.com:65.54.165.125
+mta.bing-email.microsoft.com:64.132.89.189
+mta.cortana-email.microsoft.com:64.132.89.188
+music.microsoft.com
+mvtd.events.microsoft.com
+myaccount.microsoft.com
+mybuild.microsoft.com
+mydatahealth.microsoft.com
+n6ms.a.microsoft.com:23.1.234.121
+news.microsoft.com
+next.cammt-pace.microsoft.com:65.54.165.51
+next.m.bingads.microsoft.com:131.253.40.51
+nirvana.bingads.microsoft.com:65.54.165.9
+nonprofitcommunity.microsoft.com
+northcentralus.sr-frontend.speech.microsoft.com:sr-frontend-direct-speech3-a10-usnc.northcentralus.cloudapp.azure.com
+northeurope.tts-frontend.speech.microsoft.com:istio-ingress-speech2-ame10-neu.northeurope.cloudapp.azure.com
+notrtr01.notify.buddy.microsoft.com:131.107.86.80
+notweb01.notify.buddy.microsoft.com:131.107.86.81
+nrouter1.buddy.microsoft.com:131.107.86.70
+nrouter2.buddy.microsoft.com:131.107.86.71
+nrouter3.buddy.microsoft.com:131.107.86.74
+ns1.bdm.microsoft.com:68.14.248.133
+o1.sendgrid.microsoft.com:64:ff9b::a759:17d7
+o135.track.notif.careers.microsoft.com:168.245.123.248
+o140.track.notif.careersppe.microsoft.com:167.89.126.19
+o7.jobalerts.emails.careers.microsoft.com:168.245.39.25
+o8.jobalerts.emails.careers.microsoft.com:167.89.106.35
+ocluat.partners.extranet.microsoft.com:64:ff9b::9d3a:f853
+ocpdsfavoritesppe.microsoft.com:msscfavorites02wapp-bberhuhnczhvhwhz.centralus-01.azurewebsites.net
+ocv.microsoft.com:150.171.109.116
+ocv.microsoft.com:64:ff9b::96ab:6d96
+oemcommunity.microsoft.com
+officecdnmac.microsoft.com:onecdn-officecdnmac-endpoint-adcsa5hgg6fwgvc4.b02.azurefd.net
+omsgateway.bn4c.cp.microsoft.com:104.44.192.57
+omsgateway.co1c.cp.microsoft.com:13.106.128.21
+ondernemers.microsoft.com
+onedrivelti.microsoft.com:onelti-prod.trafficmanager.net
+onegdc.microsoft.com
+onepay.co1.cp.microsoft.com:65.55.7.99
+online.microsoft.com
+onlinelearning.microsoft.com
+open.microsoft.com
+openness.microsoft.com
+order-admin.bn4.microsoft.com:40.77.240.23
+order.rest.store.internal.bn4c.microsoft.com:65.55.44.143
+org.bingads.microsoft.com:65.54.165.7
+outlook.southpacific.corp.microsoft.com:207.46.55.47
+ov-df.microsoft.com
+p5.prod.eus2.apslb.cp.microsoft.com:40.77.228.183
+p5.prod.wcus.apslb.cp.microsoft.com:64.4.54.39
+partner.bn4.cp.microsoft.com:104.44.192.41
+partner.co1.cp.microsoft.com:65.55.7.69
+partnercommunity.microsoft.com
+partnerincentives.microsoft.com
+paymentcentral.microsoft.com:epcnvaportalprod-aaejecawcfdpbwes.b02.azurefd.net
+paymentexperience.co1.cp.microsoft.com:65.55.7.119
+paymentinstrumentjournalservice.co1.cp.microsoft.com:65.55.7.32
+paymentinstruments-int.mp.microsoft.com
+paymentinstruments.mp.microsoft.com
+paymentsinstrumentservice.co1.cp.microsoft.com:65.55.7.107
+paymentstransactionservice.co1.cp.microsoft.com:65.55.7.121
+pgw.co1.cp.microsoft.com:65.55.7.24
+phoenixcataloguat.microsoft.com
+picard.buddy.microsoft.com:131.107.86.19
+pinpoint.microsoft.com
+pinunblock.microsoft.com
+planner-int.bingads.microsoft.com:65.55.2.86
+pme.microsoft.com
+pmi.microsoft.com
+pmservices.co1.cp.microsoft.com:65.55.7.16
+pmservices.cp.microsoft.com
+powerapps.microsoft.com
+powerautomate.microsoft.com
+powered.by.microsoft.com:124.198.132.147
+powerpages.microsoft.com
+powerplatform.microsoft.com
+powerusers-staging.microsoft.com
+powerusers.microsoft.com
+powervirtualagents.microsoft.com
+ppe.3pc.microsoft.com:150.171.110.17
+ppe.adexpert.microsoft.com:65.55.128.79
+ppe.businesslearning.microsoft.com:65.55.59.52
+ppe.sds.microsoft.com
+pr.apps.1js.microsoft.com:20.119.0.21
+privacy.microsoft.com
+prod-ch1b.adinsight.api.bingads.microsoft.com:40.77.234.4
+prod-co3b.adinsight.api.bingads.microsoft.com:131.253.14.199
+projectjournal.bn4.cp.microsoft.com:104.44.192.52
+projectjournal.co1.cp.microsoft.com:13.106.128.16
+projects.bn4.cp.microsoft.com:104.44.192.51
+projects.co1.cp.microsoft.com:13.106.128.15
+prosource.apj.microsoft.com:207.46.50.170
+pub-ent-jpea-02-t.trouter.teams.microsoft.com:partition-cname-trouter.pub-ent-jpea-02.ic3-edf-trouter.japaneast-prod.cosmic.office.net
+publicidad.microsoft.com:64:ff9b::1446:f614
+publicidad.microsoft.com:64:ff9b::144c:c9ab
+publicidad.microsoft.com:64:ff9b::1470:fa85
+publicidad.microsoft.com:64:ff9b::14e7:eff6
+publicidad.microsoft.com:64:ff9b::14ec:2ca2
+publisher-aircapi.1pp.microsoft.com:40.112.243.98
+purchasejournalindex-sn3p.cp.microsoft.com:64:ff9b::68d6:6854
+pymes.microsoft.com
+quark.buddy.microsoft.com:131.107.86.15
+query.prod.cms.rt.microsoft.com
+rc.engagehub.microsoft.com
+rdweb-r0.wvd.microsoft.com:rdweb-r0-prodv2.trafficmanager.net
+real-stories.microsoft.com
+recurringorder.bn4.cp.microsoft.com:104.44.192.50
+recurringorder.co1.cp.microsoft.com:13.106.128.14
+redliba.msft.scm.microsoft.com:64:ff9b::836b:5475
+register.secure.microsoft.com
+reportapi.current.adcenter-pace.microsoft.com:64.4.21.59
+reporting.si.bingads.microsoft.com:65.55.130.52
+reportingapi-bcp.adcenter.microsoft.com:207.46.202.26
+reportingapi.bingads.microsoft.com:65.52.105.125
+reroute443.microsoft.com
+researchforum.microsoft.com
+resources.next.adcenter-pace.microsoft.com:65.55.36.13
+resources.next.bingads.microsoft.com:134.170.8.141
+revenueallocator.bn4.cp.microsoft.com:104.44.192.22
+revenueallocator.dm2p.cp.microsoft.com:64:ff9b::d56:66fe
+revenueallocatorjournal.bn4.cp.microsoft.com:104.44.192.21
+revenueallocatorjournal.bn4.cp.microsoft.com:64:ff9b::682c:c015
+revenueallocatorspendable.bn4.cp.microsoft.com:65.55.44.156
+revenueallocatortime.dm2p.cp.microsoft.com:64:ff9b::d59:8907
+revenueallocatorusage.bn4.cp.microsoft.com:104.44.192.20
+rms.ccp.microsoft.com:207.46.250.108
+roclicensingsit2.partners.extranet.microsoft.com:64:ff9b::285a:684
+rpl-tk2.ds.microsoft.com:64:ff9b::cf2e:fcba
+rsk.co1.cp.microsoft.com:65.55.7.25
+rss.microsoft.com
+ruby.buddy.microsoft.com:131.107.86.111
+s.co1.cp.microsoft.com:65.55.7.83
+s.microsoft.com
+sam.support.fabric.microsoft.com
+sandbox-api.express.bingads.microsoft.com:131.253.40.77
+sandbox.api.current.adcenter-pace.microsoft.com:65.54.165.122
+sandboxapi.adcenter.microsoft.com:207.46.119.244
+sandboxmaf.adcenter.microsoft.com:207.46.119.227
+sanotifyutla01.buddy.microsoft.com:131.107.86.76
+saopaulo.msftvpn.ras.microsoft.com:64:ff9b::bfea:6201
+sar.microsoft.com
+schemas.microsoft.com
+scotty.buddy.microsoft.com:131.107.86.16
+sds.microsoft.com
+secure.bc.bingads.microsoft.com:65.54.161.200
+securityservices-sbx.adcenterapi.microsoft.com:207.46.119.235
+securityservices.bcp.adcenter.microsoft.com:65.52.107.200
+securityservices.sandbox.adcenter.microsoft.com:207.46.119.58
+seven.buddy.microsoft.com:131.107.86.14
+sg2itau1ibmmp2.microsoft.com:64:ff9b::a7dc:fd81
+sg2lyncav.mssupport.microsoft.com:64:ff9b::a7dc:fe2c
+sg2lyncav.mssupport.microsoft.com:64:ff9b::a7dc:fe2f
+sharedservices.si.api.adcenter.microsoft.com:65.55.129.202
+sharepoint.connect.microsoft.com:65.52.103.85
+sharepoint.connect2k8test.microsoft.com:207.46.197.246
+sharepoint.connectppe.microsoft.com:65.52.103.87
+sherlock.adcenter.microsoft.com:207.46.202.45
+shop.microsoft.com
+skypeandteams.fasttrack.microsoft.com
+smsservice.co1.cp.microsoft.com:65.55.7.27
+snackbox.microsoft.com
+snoopy.notify.buddy.microsoft.com:131.107.86.116
+spock.buddy.microsoft.com:131.107.86.20
+sponsors.microsoft.com
+spp700.int.sls.microsoft.com:64:ff9b::4134:66c9
+spur.microsoft.com
+sslx05.partners.extranet.microsoft.com:64:ff9b::9d3a:f83d
+stan.notify.buddy.microsoft.com:131.107.86.104
+static.account.microsoft.com:65.54.159.147
+static.buy.microsoft.com:65.54.159.148
+staticview.microsoft.com
+stationq.microsoft.com
+store.microsoft.com
+stream.microsoft.com
+sts.beta.si.advertising.microsoft.com:65.55.130.33
+sts.bn4.cp.microsoft.com:104.44.192.40
+sts.co1.cp.microsoft.com:65.55.7.57
+sts.current.adcenter-pace.microsoft.com:64.4.21.56
+sts.next.adcenter-pace.microsoft.com:134.170.8.140
+studentpartners.microsoft.com
+studio.1s.microsoft.com:20.36.155.75
+successionplanning.microsoft.com
+successionplanninguat.microsoft.com
+support.microsoft.com
+szkolyprzyszlosci.microsoft.com
+tas.teams.microsoft.com:tas-teams-microsoft-com.s-0005.dual-s-msedge.net
+taxidmanagementservice.co1.cp.microsoft.com:65.55.7.118
+tco.microsoft.com
+techacademy.microsoft.com
+techcommunity.microsoft.com
+telemetrysvc-bn3p.smartscreen.microsoft.com:64:ff9b::34e1:861b
+terraserver.microsoft.com
+test.acumen.microsoft.com:157.58.198.105
+test.cia.acumen.microsoft.com:157.58.198.143
+test.cia.acumen.microsoft.com:64:ff9b::9d3a:c68f
+test.ideas.fabric.microsoft.com
+threatintel.microsoft.com
+tide111.microsoft.com:64:ff9b::3f40:2b91
+tide17.microsoft.com:64:ff9b::cdf8:6652
+torus.apps.1js.microsoft.com:20.48.204.12
+transform.microsoft.com:64:ff9b::d5d:8d0a
+trials.transform.microsoft.com
+uat-context.answers.microsoft.com:157.56.138.140
+uddi.beta.microsoft.com:207.46.248.108
+ui.bcp.bingads.microsoft.com:207.46.202.106
+upgradecenter.microsoft.com
+usageeventservice.bn4.cp.microsoft.com:104.44.192.23
+usjs.partners.extranet.microsoft.com:64:ff9b::836b:667c
+ustoneops.co1.cp.microsoft.com:65.55.7.108
+ux.microsoft.com
+ux.uat.microsoft.com
+vh005.beta.msllab.microsoft.com:64:ff9b::4137:b9d
+vh005.pbt.microsoft.com:64:ff9b::cf2e:12c9
+vh015.pbt.microsoft.com:64:ff9b::4137:a8d
+visio.microsoft.com
+visualstudio.microsoft.com
+vlabs.betalearningservices.microsoft.com:207.46.18.198
+vlscppe.microsoft.com
+vlscu2intsvc.partners.extranet.microsoft.com:64:ff9b::9d3a:2317
+vtc.microsoft.com:64:ff9b::836b:2246
+vuat.answers.microsoft.com:207.46.196.91
+vvruat3.partners.extranet.microsoft.com:64:ff9b::a7dc:468a
+wakko.buddy.microsoft.com:131.107.86.21
+watchtower.co1.cp.microsoft.com:65.55.7.122
+wcf.si.adcenter.microsoft.com:65.55.129.60
+webpa201.int.aeos.microsoft.com:207.68.147.103
+webpa202.int.aeos.microsoft.com:207.68.147.104
+webpa203.int.aeos.microsoft.com:207.68.147.105
+worf.buddy.microsoft.com:131.107.86.5
+workflow.ex.azure.microsoft.com:65.55.54.21
+wus2s1c-displaycatalog.frontdoor.bigcatalog.commerce.microsoft.com:64:ff9b::489a:24e2
+wus3fd-staging-dcatbackend-int.staging.bigcatalog-int.commerce.microsoft.com:134.33.7.97
+wus3fd-stagingretrieval-dcatbackend-int.staging.bigcatalog-int.commerce.microsoft.com:134.33.7.97
+wwwbeta.microsoft.com
+wwwco2test62.microsoft.com:64:ff9b::86aa:b908
+wwwqa.microsoft.com
+yakko.buddy.microsoft.com:131.107.86.17
+yourchoice.microsoft.com
+zeus.buddy.microsoft.com:131.107.86.4
+
+[!] Wordlist not found: /usr/lib/python3/dist-packages/theHarvester/data/wordlists/api_endpoints.txt
+Creating a basic API wordlist for scanning...
+
+[!] An exception has occurred in API Endpoints scanning: [Errno 2] No such file or directory: '/usr/lib/python3/dist-packages/theHarvester/data/wordlists/temp_api_endpoints.txt'
+    Continuing with the rest of the scan...
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/theHarvester/__main__.py", line 1494, in start
+    with open(temp_wordlist, 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/lib/python3/dist-packages/theHarvester/data/wordlists/temp_api_endpoints.txt'
+
+[*] Performing SecurityScorecard scan...
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+[!] Missing API key for SecurityScorecard.
+Error in SecurityScorecard search: 
+[!] Missing API key for SecurityScorecard. 
+An exception has occurred in SecurityScorecard scanning: 'SearchSecurityScorecard' object has no attribute 'get_ips'
+
+[*] Performing BuiltWith scan...
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Error in BuiltWith search: 200, message='Attempt to decode JSON with unexpected mimetype: text/json; charset=utf-8', url='https://api.builtwith.com/v21/api.json?KEY=None&LOOKUP=microsoft.com'
+                                                                                
+┌──(modou㉿kali)-[~]
+└─$ 
